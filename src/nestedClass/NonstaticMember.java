@@ -11,7 +11,7 @@ package nestedClass;
 public class NonstaticMember {
 
     public class MemberClass{
-        
+
     }
 
 }
