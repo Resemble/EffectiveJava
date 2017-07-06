@@ -13,7 +13,7 @@ import java.util.concurrent.*;
 public class PoolSend {
 
     BlockingQueue<Runnable> workQueue;
-    ExecutorService es; // 线程池接口
+    ExecutorService es;  // 线程池接口
 
     public PoolSend() {
         workQueue = new LinkedBlockingQueue<>();

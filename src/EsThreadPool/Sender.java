@@ -15,6 +15,7 @@ public class Sender implements Runnable {
     }
 
     public void send() {
+
         System.out.println("I am going to send mail!");
         System.out.println("Thread.currentThread().getName():" + Thread.currentThread().getName());
     }
