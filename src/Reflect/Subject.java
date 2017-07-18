@@ -9,4 +9,7 @@ package Reflect;
  * @date 2017/7/17 19:00
  */
 public interface Subject {
+
+    public String say(String name, int age);
+
 }
